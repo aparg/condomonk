@@ -16,7 +16,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="flex items-center h-full justify-center px-6 py-1 font-normal text-lg bg-black text-[#fff]">
-              <Link href="/" className="hover:text-primary-color">
+              <Link href="/market-news" className="hover:text-primary-color">
                 Market News
               </Link>
             </div>

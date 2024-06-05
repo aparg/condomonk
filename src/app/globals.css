@@ -1,9 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @layer base {
   a {
     @apply text-[#fff] hover:text-[#fff] visited:text-[#fff];
   }
 }
+@tailwind components;
+@tailwind utilities; */
+
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
