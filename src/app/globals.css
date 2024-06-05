@@ -1,16 +1,21 @@
-/* @tailwind base;
+@tailwind base;
 @layer base {
   a {
-    @apply text-[#fff] hover:text-[#fff] visited:text-[#fff];
+    @apply text-white no-underline;
   }
   a:visited {
-    @apply text-[#fff];
+    @apply text-white no-underline;
+  }
+  a:hover {
+    @apply text-white no-underline;
+  }
+  a:focus {
+    @apply text-white no-underline;
+  }
+  a:active {
+    @apply text-white no-underline;
   }
 }
-@tailwind components;
-@tailwind utilities; */
-
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -83,6 +88,15 @@ body {
 
 .scroll-left {
   margin-left: 24px;
+}
+
+.card-feature:not(:first-child):before {
+  color: #c29b40;
+  content: "\2022";
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 6px;
+  width: 4px;
 }
 
 @layer utilities {

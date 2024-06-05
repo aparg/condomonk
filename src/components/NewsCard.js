@@ -10,7 +10,7 @@ const NewsCard = React.forwardRef(({ title, imageSrc }, ref) => {
 
     // </div>
     <div className="bg-gray-50 rounded-md" ref={ref}>
-      <div className="overflow-hidden cursor-pointer group aspect-w-3 aspect-h-4 md:aspect-w-3 md:aspect-h-2">
+      <div className="overflow-hidden cursor-pointer group h-38">
         <img
           className="object-cover w-full h-full transition-all duration-300 group-hover:scale-105"
           src={imageSrc}

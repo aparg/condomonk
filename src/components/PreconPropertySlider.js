@@ -2,9 +2,9 @@
 import React, { useEffect, useRef } from "react";
 //ICONS
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
-import PropertyCard from "./PropertyCard";
+import PreconPropertyCard from "./PreconPropertyCard";
 
-const PropertySlider = ({ numberOfCards = 4, data }) => {
+const PreconPropertySlider = ({ numberOfCards = 4, data }) => {
   const scrollRef = useRef(null); //used to hold scroll value
   const cardRef = useRef(null); //used to hold card width value
   //business is returned as Sale of business so we need to modify it to Business
@@ -46,12 +46,19 @@ const PropertySlider = ({ numberOfCards = 4, data }) => {
         id="slider"
         ref={scrollRef}
       >
-        {data?.map((curElem, index) => {
-          return <PropertyCard curElem={curElem} ref={cardRef}></PropertyCard>;
+        {data?.map((value, index) => {
+          return (
+            <PreconPropertyCard
+              key={index}
+              data={value}
+              ref={cardRef}
+              link={`/`}
+            ></PreconPropertyCard>
+          );
         })}
       </div>
     </div>
   );
 };
 
-export default PropertySlider;
+export default PreconPropertySlider;

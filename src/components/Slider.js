@@ -85,14 +85,9 @@ const Slider = ({ numberOfCards = 4, city }) => {
         id="slider"
         ref={scrollRef}
       >
-        {cardData?.map((card, index) => {
-          return (
-            <NewsCard title={card.title} imageSrc={card.imgSrc} ref={cardRef} />
-          );
-        })}
+        {children}
       </div>
     </div>
   );
 };
-
 export default Slider;
