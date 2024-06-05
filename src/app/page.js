@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Slider from "../components/Slider";
+import PropertySlider from "@/components/PropertySlider";
 
 export default function Home() {
   return (
@@ -23,7 +24,9 @@ export default function Home() {
             </h3>
             <Slider />
           </div>
-
+          <div>
+            <PropertySlider />
+          </div>
           {/* <div className=""></div> */}
         </section>
       </main>
