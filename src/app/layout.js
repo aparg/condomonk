@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
+import MarketNewsNavbar from "../components/market-news-navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,8 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} mx-4`}>
+      <body className={`${inter.className}`}>
         <Navbar />
+        <MarketNewsNavbar />
         {children}
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

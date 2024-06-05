@@ -5,8 +5,7 @@ const page = () => {
   return (
     <div className="main-title font-extrabold text-4xl w-full text-white bg-black ">
       {/* horizontal navigation */}
-     <MarketNewsNavbar />
-    
+    Hi there
     </div>
   )
 }

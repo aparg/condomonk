@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#000]">
-      <div className="w-full flex justify-between items-center bg-[#000] px-8 py-4">
+    <nav className="bg-[#000] px-12">
+      <div className="w-full flex justify-between items-center bg-[#000] h-20">
         <div className="w-40">
           <img src="/logo/logo1.webp" className="w-full"></img>
         </div>
