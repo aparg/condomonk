@@ -4,26 +4,26 @@ import React, { useEffect, useRef } from "react";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import NewsCard from "./NewsCard";
 
-const Slider = ({ numberOfCards = 3, city }) => {
+const Slider = ({ numberOfCards = 4, city }) => {
   const scrollRef = useRef(null); //used to hold scroll value
   const cardRef = useRef(null); //used to hold card width value
   const cardData = [
-    // {
-    //   imgSrc: "/news.jpg",
-    //   title: "News Title",
-    // },
-    // {
-    //   imgSrc: "/news.jpg",
-    //   title: "News Title",
-    // },
-    // {
-    //   imgSrc: "/news.jpg",
-    //   title: "News Title",
-    // },
-    // {
-    //   imgSrc: "/news.jpg",
-    //   title: "News Title",
-    // },
+    {
+      imgSrc: "/news.jpg",
+      title: "News Title",
+    },
+    {
+      imgSrc: "/news.jpg",
+      title: "News Title adsfjasd fasldfans lalsdkfsdalf asdf",
+    },
+    {
+      imgSrc: "/news.jpg",
+      title: "News Title",
+    },
+    {
+      imgSrc: "/news.jpg",
+      title: "News Title",
+    },
     {
       imgSrc: "/news.jpg",
       title: "News Title",
@@ -81,12 +81,14 @@ const Slider = ({ numberOfCards = 3, city }) => {
         </button>
       </div>
       <div
-        className={`grid grid-cols-${numberOfCards} md:row-cols-3 grid-cols-5 gap-x-4 py-2`}
+        className={`row row-cols-lg-${numberOfCards} row-cols-md-3 row-cols-1 gap-x-4 py-2`}
         id="slider"
         ref={scrollRef}
       >
         {cardData?.map((card, index) => {
-          return <NewsCard title={card.title} imageSrc={card.imgSrc} />;
+          return (
+            <NewsCard title={card.title} imageSrc={card.imgSrc} ref={cardRef} />
+          );
         })}
       </div>
     </div>

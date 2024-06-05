@@ -3,6 +3,9 @@
   a {
     @apply text-[#fff] hover:text-[#fff] visited:text-[#fff];
   }
+  a:visited {
+    @apply text-[#fff];
+  }
 }
 @tailwind components;
 @tailwind utilities; */
