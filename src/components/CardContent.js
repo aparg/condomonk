@@ -28,31 +28,32 @@
 
 // export default CardContent;
 
-
-
+import Link from "next/link";
 import React from "react";
 
-const CardContent = React.forwardRef(({ imgSrc, miniTitle, title, subtitle},ref) => {
-  return (
-    <div className="flex flex-col w-full flex-wrap gap-3" ref={ref}>
-      <div className="img">
-        <img
-          src={imgSrc}
-          alt="Laptop"
-          className="h-[200px] w-full object-cover"
-        />
-      </div>
-      <div className="mini-title text-sm font-light uppercase">
-        {miniTitle}
-      </div>
-      <div className="title text-xl w-full playfair">
-        {title}
-      </div>
-      <div className="subtitle font-light text-sm text-gray-500">
-        {subtitle}
-      </div>
-    </div>
-  );
-})
+const CardContent = React.forwardRef(
+  ({ imgSrc, miniTitle, title, subtitle, link }, ref) => {
+    return (
+      <Link href={link} className="hover:no-underline decoration text-white">
+        <div className="flex flex-col w-full flex-wrap gap-3" ref={ref}>
+          <div className="img">
+            <img
+              src={imgSrc}
+              alt="Laptop"
+              className="h-[200px] w-full object-cover"
+            />
+          </div>
+          <div className="mini-title text-sm font-light uppercase ">
+            {miniTitle}
+          </div>
+          <div className="title text-xl w-full playfair">{title}</div>
+          <div className="subtitle font-light text-sm text-gray-500">
+            {subtitle}
+          </div>
+        </div>
+      </Link>
+    );
+  }
+);
 
 export default CardContent;

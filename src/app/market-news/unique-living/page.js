@@ -67,10 +67,8 @@ const page = () => {
   return (
     <div className="bg-black text-white">
       <div className={`grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 p-4 md:p-8`}>
-        {cards.map((card, index) => (
-          <Link href={card.link} key={index}>
+      {cards.map((card, index) => (
               <CardContent {...card} />
-          </Link>
         ))}
       </div>
     </div>

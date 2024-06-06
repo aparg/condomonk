@@ -84,9 +84,7 @@ const page = async () => {
         className={`grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8 p-4 md:p-8`}
       >
        {cards.map((card, index) => (
-          <Link href={card.link} key={index}>
               <CardContent {...card} />
-          </Link>
         ))}
       </div>
 
