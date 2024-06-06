@@ -34,7 +34,7 @@ import React from "react";
 const CardContent = React.forwardRef(
   ({ imgSrc, miniTitle, title, subtitle, link }, ref) => {
     return (
-      <Link href={link} className="hover:no-underline decoration text-white">
+      <Link href={link} className="hover:no-underline decoration bg-[#121212]  text-white">
         <div className="flex flex-col w-full flex-wrap gap-3" ref={ref}>
           <div className="img">
             <img
@@ -43,11 +43,11 @@ const CardContent = React.forwardRef(
               className="h-[200px] w-full object-cover"
             />
           </div>
-          <div className="mini-title text-sm font-light uppercase ">
+          <div className="mini-title text-sm font-light uppercase px-4">
             {miniTitle}
           </div>
-          <div className="title text-xl w-full playfair">{title}</div>
-          <div className="subtitle font-light text-sm text-gray-500">
+          <div className="title text-2xl w-full playfair px-4">{title}</div>
+          <div className="subtitle font-light text-sm text-gray-400 px-4 mb-4">
             {subtitle}
           </div>
         </div>

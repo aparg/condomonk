@@ -32,35 +32,35 @@ const page = () => {
       miniTitle: "Unique Living",
       title: "How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!",
       subtitle: "At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...",
-      link: "/your-dynamic-route" // replace with your dynamic route
+      link: "/market-news/unique-living/1" // replace with your dynamic route
     },
     {
       imgSrc: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
       miniTitle: "Unique Living",
       title: "How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!",
       subtitle: "At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...",
-      link: "/your-dynamic-route" // replace with your dynamic route
+      link: "/market-news/unique-living/1" // replace with your dynamic route
     },
     {
       imgSrc: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
       miniTitle: "Unique Living",
       title: "How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!",
       subtitle: "At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...",
-      link: "/your-dynamic-route" // replace with your dynamic route
+      link: "/market-news/unique-living/1" // replace with your dynamic route
     },
     {
       imgSrc: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
       miniTitle: "Unique Living",
       title: "How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!",
       subtitle: "At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...",
-      link: "/your-dynamic-route" // replace with your dynamic route
+      link: "/market-news/unique-living/1" // replace with your dynamic route
     },
     {
       imgSrc: "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
       miniTitle: "Unique Living",
       title: "How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!",
       subtitle: "At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...",
-      link: "/your-dynamic-route" // replace with your dynamic route
+      link: "/market-news/unique-living/1" // replace with your dynamic route
     },
   ];
 
