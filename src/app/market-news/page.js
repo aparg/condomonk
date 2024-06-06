@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import CardContent from "../../components/CardContent";
+import getNewsData from "../../../actions/getNewsData";
 
 const page = async() => {
 
-  const rentalData = await getFilteredRetsData({ saleLease: "Lease" });
+  const rentalData = await getNewsData({ saleLease: "Lease" });
 
   return (
     <div className="w-full h-full  text-white">
