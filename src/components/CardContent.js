@@ -1,23 +1,28 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const CardContent = () => {
   return (
-    <div className='flex flex-col gap-4'>
-        <div className="img">
-            <img src="/Rectangle 6.svg" alt="Rectangle 6" height={200} width={400} />
-        </div>
-        <div className="mini-title text-sm font-light uppercase">
-            Unique Living
-          </div>
-          <div className="title text-3xl font-extrabold font-serif">
-            How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!
-          </div>
-          <div className="subtitle font-light text-sm">
-            At the very beginning of 2023, I published this video in response to news headlines saying “Record Number of Condos to Flood Toronto...
-          </div>
-      
+    <div className="flex flex-col w-full flex-wrap gap-3">
+      <div className="img">
+        <img
+          src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+          alt="Laptop"
+          className="h-[200px] w-full object-cover"
+        />
+      </div>
+      <div className="mini-title text-sm font-light uppercase">
+        Unique Living
+      </div>
+      <div className="title text-xl w-full playfair">
+        How to Assign a Condo Unit FAST - Don't Walk Away Until You Watch This!
+      </div>
+      <div className="subtitle font-light text-sm text-gray-500">
+        At the very beginning of 2023, I published this video in response to
+        news headlines saying “Record Number of Condos to Flood Toronto...
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default CardContent
+export default CardContent;

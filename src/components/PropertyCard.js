@@ -23,6 +23,8 @@ const PropertyCard = React.forwardRef(({ curElem, small = false }, ref) => {
     currency: "USD",
     maximumFractionDigits: 0,
   });
+
+  
   return (
     <section className="text-black px-1" ref={ref}>
       <Link href="/" className="text-black hover:no-underline w-full">
